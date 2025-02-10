@@ -28,15 +28,16 @@
 
 .button {
   padding: 10px 15px;
-  background-color: #4fa4ff;
-  color: white;
-  border: none;
-  border-radius: 5px;
+  font-size: 1rem;
+  border: 1px solid #0d87f8;
+  border-radius: 8px;
+  background-color: #a2cffc;
+  color: #000;
   cursor: pointer;
-  font-size: 16px;
+  transition: background-color 0.5s;
   margin: 0 auto;
-  width: 100%;
-  max-width: 200px;
+  max-width: 150px;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
 }
 
 .button:hover {

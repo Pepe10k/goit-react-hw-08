@@ -28,7 +28,20 @@ ol {
   padding: 0;
   list-style: none;
 }
-button,
+button {
+  padding: 10px 15px;
+  font-size: 1rem;
+  border: 1px solid #0d87f8;
+  border-radius: 8px;
+  background-color: #a2cffc;
+  color: #000;
+  cursor: pointer;
+  transition: background-color 0.5s;
+  margin: 0 auto;
+  max-width: 150px;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+}
+
 a {
   cursor: default;
 }
