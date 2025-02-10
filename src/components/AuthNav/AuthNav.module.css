@@ -1,13 +1,15 @@
 .authButton {
-  display: inline-block;
-  padding: 5px 10px;
-  margin: 5px;
-  text-align: center;
-  font-weight: bold;
-  color: white;
-  background-color: #4fa4ff;
-  border-radius: 5px;
-  text-decoration: none;
+  padding: 10px 15px;
+  font-size: 1rem;
+  border: 1px solid #0d87f8;
+  border-radius: 8px;
+  background-color: #a2cffc;
+  color: #000;
+  cursor: pointer;
+  transition: background-color 0.5s;
+  margin: 0 auto;
+  max-width: 150px;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
 }
 
 .authButton:hover {
