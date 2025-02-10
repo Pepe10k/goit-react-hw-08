@@ -1,8 +1,10 @@
 import { useDispatch, useSelector } from 'react-redux';
-import { deleteContact } from '../../redux/contactsOps';
+
+import { selectDeletingIds } from '../../redux/contacts/selectors';
+import { deleteContact } from '../../redux/contacts/operations';
+
 import { FaUser, FaPhoneAlt } from 'react-icons/fa';
 import styles from './Contact.module.css';
-import { selectDeletingIds } from '../../redux/selectors';
 
 const Contact = ({ id, name, number }) => {
   const dispatch = useDispatch();
